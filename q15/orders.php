@@ -9,7 +9,11 @@
 <body>
 
 <?php
+// Start the session
 session_start();
+
+// Connect to the MySQL database using mysqli
+// Parameters: host, username, password, database name
 $db = mysqli_connect("127.0.0.1", "root", "password2", "db3");
 
 // Check if the user is already logged in or if a password is submitted

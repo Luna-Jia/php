@@ -6,7 +6,7 @@ CREATE TABLE orders (
     `auto_id` INT AUTO_INCREMENT PRIMARY KEY,
     `name` VARCHAR(255),
     `card` VARCHAR(255),
-    `address` TEXT,
+    `address` VARCHAR(255),
     `noddles` INT,
     `rice` INT,
     `hotpot` INT
